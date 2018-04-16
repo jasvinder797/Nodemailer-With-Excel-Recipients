@@ -9,8 +9,8 @@ var fs = require('fs');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'yourmail',
-    pass: 'pass'
+    user: 'example@gmail.com',
+    pass: 'password'
   }
 });
  var storage = multer.diskStorage({ //multers disk storage settings
